@@ -1,7 +1,7 @@
-# Bank_loan Analysis
+## Bank_loan Analysis
   This project involves the analysis of a dataset containing 1 million rows of bank loan data, across the years 2018-2024. This data is to understand customer loan behavior, specifically looking at loan distribution across different seasons and the types of collateral used. The analysis aims to provide insights deep-dive into loan patterns, risk assessment, and potential business strategies related to loan offerings.
 
-# Dataset Column Briefing
+## Dataset Column Briefing
   Here's a brief description of the columns in the dataset:
                 
                 •	Customer: Unique identifier for each customer.
@@ -28,7 +28,7 @@
                 
                 •	Region: The geographical region of the customer.
 
-# Loan Performance Report
+## Loan Performance Report
   This report provides an in-depth analysis of our loan performance, ideal customer profile, and regional performance. By integrating these insights, we can pinpoint areas of success and identify regions requiring targeted improvements.
   
   Across the years 2018 to 2024, customers bought a total loan amount of $25.49 billion from the bank, representing an average loan amount of $26,000 with a 6% average interest rate.
@@ -63,25 +63,22 @@ Customer Profile
         •	All regions show a strong demand for loan products, with relatively even distribution of loan amounts.
         •	All regions show a healthy loan demand.
         
-# Conclusion:
+## Conclusion:
   Enhance customer engagement in key demographics. Improve loan product offerings to reduce risk. Leverage regional strengths by replicating successful strategies in underperforming areas. By focusing on these areas, will well-positioned to sustain and increase its growth, ensuring continued success in an competitive market.
 
-# Tools:
+## Tools:
 
-    # EXCEL
-    
-    # MySQL
-    
-    # Power BI
+* `EXCEL`
+* `MySQL`
+* `Power BI`
 
-# Source file:
+## Source File:
 
-*I downloaded a dataset with ChatGPT* uploaded it, and then checked it out.
-    
+The dataset for this analysis was initially sourced and structured using ChatGPT.
 
 
 
-  
+
 
 
 
