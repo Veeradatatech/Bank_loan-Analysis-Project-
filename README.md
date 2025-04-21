@@ -28,6 +28,8 @@
                 
                 •	Region: The geographical region of the customer.
 
+  ![Alt text](table.JPG)
+
 ## Loan Performance Report
   This report provides an in-depth analysis of our loan performance, ideal customer profile, and regional performance. By integrating these insights, we can pinpoint areas of success and identify regions requiring targeted improvements.
   
