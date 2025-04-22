@@ -1,7 +1,7 @@
-# 📊 Bank_loan Analysis (2018-2024)
+## 📊 Bank_loan Analysis (2018-2024)
   This project performs data exploration and analysis on loan data to understand risk levels, default patterns, and lending trends. It’s part of my data analyst learning path using SQL, Excel, and Power BI.
 
-# 📝 Table of Contents
+## 📝 Table of Contents
 
 - [📄 Project Overview](#project-overview)
 - [📦 Dataset](#dataset)
@@ -13,11 +13,11 @@
 - [🧰 Tools & Technologies](#tools--technologies)
 
 
-# 📄 Project Overview
+## 📄 Project Overview
 
   This project involves analyzing a dataset containing 1 million rows of bank loan data from 2018 to 2024. The goal is to understand customer loan behavior, identify loan distribution patterns across different seasons, and evaluate the types of collateral used. The analysis provides deep insights into risk assessment and helps inform strategic business decisions.
 
-# 📦 Dataset 
+## 📦 Dataset 
 
  The dataset Bank_loan was generated using ChatGPT to simulate real-world banking scenarios.
 
@@ -55,7 +55,7 @@
 
      <img width="1276" alt="Frame 10" src="https://github.com/user-attachments/assets/6d5c1834-39e6-4b1b-9b03-0c9e9cde026b" />
 
-# 🎯 Objectives
+## 🎯 Objectives
 
   * Identify top 5 loan officers by total provided loan amount.
 
@@ -69,11 +69,11 @@
 
   * Compare each customer’s loan to their average loan amount.
 
-# 🔍 Deep-Dive Insights
+## 🔍 Deep-Dive Insights
 
   This report provides an in-depth analysis of our loan performance, ideal customer profile, and regional performance. By integrating these insights, we can pinpoint areas of success and identify regions requiring targeted improvements.
   
-  Across the years 2018 to 2024, customers bought a total loan amount of $25.49 billion from the bank, representing an average loan amount of $26,000 with a 6% average interest rate.
+  Across the years 2018 to 2024, Customers took out a total of $25.49 billion in loans from the bank, representing an average loan amount of $26,000 with a 6% average interest rate.
 
 **📈 Sum of Loan Amount by Year:**
 
@@ -91,7 +91,7 @@
 
 * Continue to handle increased demand and to achieve target high.
 
-* Compare approval vs. rejection rates in 2024 vs. previous years.
+* Compare 2024’s approval and rejection rates with previous years to understand performance shifts.
 
      ![6](https://github.com/user-attachments/assets/4c05fd5c-8263-45c1-a108-05ab751b83e8)
 
@@ -103,7 +103,7 @@
 
   * Indicates well-balanced regional lending across the country.
 
-  * Loan amount by regoins:
+  * Loan amount by regions:
 
     **North**: A loan amount totaling $6.36 billion was bought by customers from the bank in this northern region.
 
@@ -129,7 +129,7 @@ Analyze by region :
 
 **Insights:**
 
-  * All loan types (auto, business, education, mortgage, personal) shows very similar total loan amounts (range: $5.08bn–$5.12bn).
+  * Loan types—auto, business, education, mortgage, and personal—show closely distributed total amounts (between $5.08B and $5.12B), indicating balanced product interest.
 
   * Average Interest rate is 6% across all loan types except education.
 
@@ -143,7 +143,7 @@ Analyze by region :
 
      ![1](https://github.com/user-attachments/assets/3bb1614a-3339-4d90-a717-57e642d113d1)
 
-# 🧮 SQL Concepts You Used
+## 🧮 SQL Concepts You Used
 
 👉 [Download bank_loan_MySQL.sql](bank_loan_MySQL.sql)
 
@@ -162,47 +162,47 @@ Analyze by region :
  
    ![stored](https://github.com/user-attachments/assets/045a6895-3482-4f62-b173-3ec9aaea668a)
 
-* Reusable blocks for region, Payment_frequency, status, and loan-type-based summaries
+* Reusable blocks for region, Payment_frequency, status, and loan-type-based summaries.
 
-* Helps in data extraction to store what we want
+* Helps in data extraction to store what we want.
 
 **🧩 Views** :
 
    ![views](https://github.com/user-attachments/assets/dd41f93c-09c1-43e0-bddc-e6f0506a2ec5)
 
-* Created reusable datasets: North, quarterly, unsecured
+* Created reusable datasets: North, quarterly, unsecured.
 
-* Clean way to isolate and reuse filtered data subsets
+* Clean way to isolate and reuse filtered data subsets.
 
 **🚀 Indexing** :
 
    ![index](https://github.com/user-attachments/assets/9d28b287-13df-4a23-b2be-8f82a4b0f58b)
 
-* Indexed on application_channel to optimize filtering
+* Indexed on application_channel to optimize filtering.
 
-# 📊 Dashboard
+## 📊 Dashboard
 
 👉 [Download loan.pbix](loan.pbix)
 
 ![Alt text](loan_dashboard.jpg)
 
-# 🛠 How to Use
+## 🛠 How to Use
 
-1. Clone this repository
+1. Clone this repository.
 
 2. Open SQL files in your preferred client (MySQL Workbench, etc,.)
 
-3. Run queries on the provided dataset
+3. Run queries on the provided dataset.
 
-4. (Optional) Open the Power BI file to explore the dashboard
+4. (Optional) Open the Power BI file to explore the dashboard.
 
-# 🧰 Tools & Technologies
+## 🧰 Tools & Technologies
 
-**MS Excel** : For Data cleaning (null removal, de-duplication)
+**MS Excel**: For Data cleaning (null removal, de-duplication)
  
- **MySQL**   : For Data Modeling, Transformation, Complex Querying and Analysis of bank loan.
+ **MySQL**: For Data Modeling, Transformation, Complex Querying and Analysis of bank loan.
 
-**Power BI**`: For Dashboard and data visualization
+**Power Bi**: For Dashboard and data visualization
 
 
 
