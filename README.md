@@ -118,27 +118,49 @@ Analyze by region :
 
 # 🧠 SQL Concepts You Used
 
+
+  ![schemas](https://github.com/user-attachments/assets/afeed222-7391-4a91-9e27-95df9e0373f3)
+
+
 **📊 Data Exploration & Aggregation** : COUNT(*), SUM(), AVG(), MIN(), MAX(), GROUP BY, HAVING, ORDER BY, LIMIT
+
 
 **📝 Windows Functions** : RANK(), DENSE_RANK(), PERCENT_RANK(), LAG(), SUM() OVER
 
+
 **📝 CTEs (Common Table Expressions)** : WITH .... AS ()
 
+
 **💾 Stored Procedures** : 
+
+ 
+   ![stored](https://github.com/user-attachments/assets/045a6895-3482-4f62-b173-3ec9aaea668a)
+
 
 * Reusable blocks for region, Payment_frequency, status, and loan-type-based summaries
 
 * Helps in data extraction to store what we want
 
+
 **🧩 Views** :
+
+
+   ![views](https://github.com/user-attachments/assets/dd41f93c-09c1-43e0-bddc-e6f0506a2ec5)
+
 
 * Created reusable datasets: North, quarterly, unsecured
 
 * Clean way to isolate and reuse filtered data subsets
 
+
 **🚀 Indexing** :
 
+
+   ![index](https://github.com/user-attachments/assets/9d28b287-13df-4a23-b2be-8f82a4b0f58b)
+
+
 * Indexed on application_channel to optimize filtering
+
 
 # 🛠 Tools:
 
