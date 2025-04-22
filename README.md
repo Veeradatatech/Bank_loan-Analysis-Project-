@@ -3,15 +3,14 @@
 
 ## 📝 Table of Contents
 
-- [📄 Project Overview](#project-overview)
-- [📦 Dataset](#dataset)
-- [🎯 Objectives](#objectives)
-- [🔍 Deep-Dive Insights](#deep-dive-insights)
-- [🧮 SQL Concepts You Used](#sql-concepts-you-used)
-- [📊 Dashboard](#dashboard)
-- [🛠 How to Use](#how-to-use)
-- [🧰 Tools & Technologies](#tools--technologies)
-
+- [📄 Project Overview](#-project-overview)
+- [📦 Dataset](#-dataset)
+- [🎯 Objectives](#-objectives)
+- [🔍 Deep-Dive Insights](#-deep-dive-insights)
+- [🧮 SQL Concepts You Used](#-sql-concepts-you-used)
+- [📊 Dashboard](#-dashboard)
+- [🛠 How to Use](#-how-to-use)
+- [🧰 Tools & Technologies](#-tools--technologies)
 
 ## 📄 Project Overview
 
